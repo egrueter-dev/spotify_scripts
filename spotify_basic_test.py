@@ -40,8 +40,8 @@ import spotipy.util as util
 #------------------Authentication-----------------------
 username='W'
 scope=''
-SPOTIPY_CLIENT_ID = 'afec6b91ff52456495b1ad91b2247de4'
-SPOTIPY_CLIENT_SECRET = '80de1fb094814b7086bb9022defd640e'
+SPOTIPY_CLIENT_ID = 'the_ID'
+SPOTIPY_CLIENT_SECRET = 'the_secret'
 SPOTIPY_REDIRECT_URI = 'https://example.com/callback/'
 
 token = util.prompt_for_user_token(username, scope=scope, client_id=SPOTIPY_CLIENT_ID,
